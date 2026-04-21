@@ -5,7 +5,7 @@ from decimal import Decimal
 import boto3
 from boto3.dynamodb.conditions import Key
 
-
+#
 TABLE_NAME = os.environ.get("TABLE_NAME", "Inventory")
 
 dynamodb = boto3.resource("dynamodb")
